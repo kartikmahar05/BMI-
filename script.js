@@ -1,5 +1,4 @@
-
-function check(){
+function Check(){
     const H=document.querySelector('#Height').value
     const W=document.querySelector('#Weight').value
     let bmi=(W/(H*H)).toFixed(2)
